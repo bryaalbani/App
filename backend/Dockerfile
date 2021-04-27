@@ -1,5 +1,4 @@
-FROM node:latest
-WORKDIR /appback
+FROM node:11-alpine
 COPY . .
 RUN npm install
 EXPOSE 8080
